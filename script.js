@@ -3,7 +3,7 @@ function onSearch() {
   fetch(
     "https://api.giphy.com/v1/gifs/search?api_key=ubRd9RWAMEfiWz7JoWIKwS8xEcbZxQdJ&q=" +
       request +
-      "&limit=5&offset=0&rating=g&lang=en"
+      "&limit=5&offset=0&rating=pg&lang=en"
   )
     .then((response) => response.json())
     .then((data) => {
